@@ -34,3 +34,12 @@ Em telas =>1200px:
     .container-xl: 1140px;
 
 
+.table-primary	Azul: indica uma ação importante
+.table-success	Verde: indica uma ação positiva ou bem sucedida
+.table-danger	Vermelho: indica uma ação perigosa ou potencialmente negativa
+.table-info	Azul claro: indica uma alteração ou ação informativa neutra
+.table-warning	Laranja: indica um aviso que pode precisar de atenção
+.table-active	Cinza: aplica a cor do cursor à linha ou célula da tabela
+.table-secondary	Cinza: indica uma ação um pouco menos importante
+.table-light	Tabela cinza clara ou fundo da linha da tabela
+.table-dark	Tabela cinza escura ou fundo da linha da tabela
