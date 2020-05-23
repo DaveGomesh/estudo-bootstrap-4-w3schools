@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <title>Marcações importantes</title>
+    </head>
+
+    <body>
+        <div class="container-fluid p-3 bg-primary text-white">
+            <div class="container">
+                <h1>Marcações importantes</h1>
+                <p>Marcações interessantes de se usar!</p>
+                <p>Acesse o código fonte!</p>
+            </div>
+        </div>
+
+        <div class="container-sm">
+            <ul class="list-unstyled list-inline">
+                <li class="list-inline-item"><a href="containers-linhas-e-colunas.html">Containers / Linhas e colunas</a></li>
+                <li class="list-inline-item"><a target="blank" href="https://www.w3schools.com/bootstrap4/bootstrap_typography.asp">Conteúdo completo</a></li>
+            </ul>
+        </div>
+
+        <div id="tags-titulo" class="container-sm pt-3 mb-5 border">
+            <h1 class="display-4">TAG's de título:</h1>
+            <h1>h1 Bootstrap heading (2.5rem = 40px)</h1>
+            <h2>h2 Bootstrap heading (2rem = 32px)</h2>
+            <h3>h3 Bootstrap heading (1.75rem = 28px)</h3>
+            <h4>h4 Bootstrap heading (1.5rem = 24px)</h4>
+            <h5>h5 Bootstrap heading (1.25rem = 20px)</h5>
+            <h6>h6 Bootstrap heading (1rem = 16px)</h6>
+            <hr>
+
+            <h1>Texto secundário mais claro</h1>
+            <p>O elemento "small" é usado para criar um texto secundário mais claro em qualquer título.</p>
+            <h1>h1 heading <small>secondary text</small></h1>
+            <h2>h2 heading <small>secondary text</small></h2>
+            <h3>h3 heading <small>secondary text</small></h3>
+            <h4>h4 heading <small>secondary text</small></h4>
+            <h5>h5 heading <small>secondary text</small></h5>
+            <h6>h6 heading <small>secondary text</small></h6>
+            <hr>
+
+            <h1>Display Headings</h1>
+            <p>Display headings são usados para destacar mais do que os títulos normais (fonte maior e sem negrito).</p>
+            <h1 class="display-1">Display 1</h1>
+            <h1 class="display-2">Display 2</h1>
+            <h1 class="display-3">Display 3</h1>
+            <h1 class="display-4">Display 4</h1>
+        </div>
+
+        <div class="container-sm pt-3 border">
+            <h1 class="display-4 mb-5">Tipografia</h1>  
+
+            <h2>Texto realçado</h2>    
+            <p>Use o elemento "mark" para criar um <mark>texto realçado</mark>!</p>
+            <hr>
+
+            <h2>Abreviações</h2>
+            <p>O elemento "abbr" é usado para marcar uma abreviação ou sigla.</p>
+
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+            <p>A marca <abbr title="David Gomesh">DGH</abbr>!</p>
+
+            <h2>Initialism</h2>
+            <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. (abbr normal)</p>      
+            <p>The <abbr title="World Health Organization" class="initialism">WHO</abbr> was founded in 1948. (abbr levemente menor)</p>
+            <hr>
+
+            <h2>Blockquotes</h2>
+            <p>O elemento "blockquote" é usado para apresentar um conteúdo de outra fonte:</p>
+            <blockquote class="blockquote">
+              <p>
+                  For 50 years, WWF has been protecting the future of nature. 
+                  The world's leading conservation organization, 
+                  WWF works in 100 countries and is supported by 1.2 million members 
+                  in the United States and close to 5 million globally.
+                </p>
+              <footer class="blockquote-footer">From WWF's website</footer>
+            </blockquote>
+            <hr>
+
+            <h2>Lista de Descrição</h2>    
+            <p>O elemento "dl" indica uma lista de descrição:</p>
+            <dl>
+              <dt>Coffee</dt>
+              <dd>- black hot drink</dd>
+              <dt>Milk</dt>
+              <dd>- white cold drink</dd>
+            </dl>    
+            
+            <h2>Lista não estilizada</h2>
+            <p>A classe ".list-unstyled" remove o "list-style" padrão e a margem esquerda nos itens da lista (somente filhos imediatos):</p>
+            <ul class="list-unstyled">
+                <li>Coffee</li>
+                <li>Tea
+                <ul>
+                    <li>Black tea</li>
+                    <li>Green tea</li>
+                </ul>
+                </li>
+                <li>Milk</li>
+            </ul>
+
+            <h2>List inline</h2>
+            <p>A classe ".list-inline" coloca todos os itens da lista em uma única linha, quando usada junto com o ".list-inline-item:"</p>
+
+            <ul class="list-inline">
+                <li class="list-inline-item">Coffee</li>
+                <li class="list-inline-item">Tea</li>
+                <li class="list-inline-item">Milk</li>
+            </ul>
+
+            <p>E é assim que o Bootstrap 4 estilizará esses elementos!</p>
+            <hr>
+
+            <h2>Entradas no teclado</h2>
+            <p>Para indicar a entrada que normalmente é inserida pelo teclado, use o elemento kbd:</p>
+            <p>Use <kbd>ctrl + p</kbd> to open the Print dialog box.</p>
+            <hr>
+
+            <h2>Trechos de códigos</h2>
+            <p>Trechos de códigos devem ser colocados no elemento "code"!</p>
+            <p>The following HTML elements: <code>span</code>, <code>section</code>, and <code>div</code> defines a section in a document.</p>
+            <code>
+                printf("Hello World!\n");
+            </code>
+
+            <h2>Code</h2>    
+            <p>For multiple lines of code, use the pre element:</p>
+            <p>Para múltiplas linhas de código, use o elemento "pre":</p>
+            <pre>
+                Text in a pre element
+                is displayed in a fixed-width
+                font, and it preserves
+                both      spaces and
+                line breaks.
+            </pre>
+
+            <p>Se você adicionar a classe ".pre-scrollable", o elemento "pre" terá uma altura máxima de 340px e fornecerá uma barra de rolagem no eixo y:</p>
+            <pre class="pre-scrollable">
+                -----------------------------------------
+
+                Códigos serão escritos aqui!
+                Corrija os bugs!
+                Idente seu código!
+                Escreva códigos limpos!
+                Encapsule as classes!
+                Escreva no terminal:
+                    "Hello World!"
+                Só então sua aplicação estará correta...
+
+                -----------------------------------------
+
+                Códigos serão escritos aqui!
+                Corrija os bugs!
+                Idente seu código!
+                Escreva códigos limpos!
+                Encapsule as classes!
+                Escreva no terminal:
+                    "Hello World!"
+                Só então sua aplicação estará correta...
+
+                -----------------------------------------
+
+                Códigos serão escritos aqui!
+                Corrija os bugs!
+                Idente seu código!
+                Escreva códigos limpos!
+                Encapsule as classes!
+                Escreva no terminal:
+                    "Hello World!"
+                Só então sua aplicação estará correta...
+
+                -----------------------------------------
+            </pre>
+            <hr>
+
+            <h2>Font weight e italics</h2>
+            <p class="font-weight-bold">Bold text.</p>
+            <p class="font-weight-bolder">Bolder text.</p>
+            <p class="font-weight-normal">Normal weight text.</p>
+            <p class="font-weight-light">Light weight text.</p>
+            <p class="font-weight-lighter">Lighter weight text.</p>
+            <p class="font-italic">Italic text.</p>
+            <hr>
+
+            <h2>Lead</h2>
+            <p>Use a classe .lead para destacar um parágrafo:</p>
+            <p class="lead">This paragraph stands out.</p>
+            <p>This is a regular paragraph.</p>
+            <hr>
+
+            <h2>Small</h2>
+            <p>Use a classe .small para diminuir o texto:</p>
+            <p class="small">This paragraph is smaller.</p>
+            <p>This is a regular paragraph.</p>
+            <hr>
+
+            <h2>Text break / Word break</h2>
+            <p>A classe ".text-break" impede o texto longo de quebrar o layout.</p>
+            <p>Com .text-break:</p>
+            <p class="text-break">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+            <p>Sem .text-break (remova no código):</p>
+            <p class="text-break">AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZzAaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz</p>
+            <hr>
+
+            <h2>Text Decoration</h2>
+            <p>Use a classe ".text-decoration-none" para remover o sublinhado de um link.</p>
+            <a href="#" class="text-decoration-none">A link without underline.</a>
+            <hr>
+
+            <h2>Monospaced</h2>
+            <p>Default text.</p>
+            <p class="text-monospace">Monospaced text.</p>
+            <hr>
+
+            <h2>Text decorations</h2>
+            <p class="text-lowercase">Lowercased text.</p>
+            <p class="text-uppercase">Uppercased text.</p>      
+            <p class="text-capitalize">Capitalized text.</p>
+            <hr>
+
+            <h2>Reset Color</h2>
+            <p>Use the .text-reset class to inherit the color from the parent. For example, a link is blue by default, however, in this example, it inherits the grey, muted color from its parent. Try to remove the class to see the differences.</p>
+            <p>Use a classe ".text-reset" para herdar a cor do pai. Por exemplo, um link é azul por padrão; no entanto, neste exemplo, ele herda a cor cinza e silenciada de seu pai. Tente remover a classe para ver as diferenças.</p>
+            <p class="text-muted">Muted text with a <a href="#" class="text-reset">reset link</a>.</p>
+        </div>
+
+        <div class="container-sm pt-3 mb-5 border">
+            <h1 class="display-4">Alignments</h1>
+            <!-- Todos os alinhamentos normais -->
+            <h3>Normal alignment</h3>
+            <p class="text-left">Left-aligned text.</p>
+            <p class="text-right">Right-aligned text.</p>      
+            <p class="text-center">Center-aligned text.</p>
+            <p class="text-justify">Justified text. Justified text. Justified text. Justified text. Justified text. Justified text.</p>      
+            <p class="text-nowrap">No wrap text. No wrap text. No wrap text. No wrap text.</p>
+            <p><strong>Dica:</strong> Tente redimensionar a janela do navegador para ver o comportamento do justify e nowrap.</p>
+            <hr>
+
+            <!-- Alinhamento reponsivo à esquerda -->
+            <h3>Responsive Left Aligned Text</h3>
+            <p>Observe que o texto é alinhado à esquerda por padrão.</p>
+            <p class="text-left">Left aligned text on all screen sizes.</p>
+            <p class="text-sm-left">Left aligned text on small or wider screens.</p>
+            <p class="text-md-left">Left aligned text on medium or wider screens.</p>
+            <p class="text-lg-left">Left aligned text on large or wider screens.</p>
+            <p class="text-xl-left">Left aligned text on xlarge or wider screens.</p>
+            <hr>
+
+            <!-- Alinhamento reponsivo à direita -->
+            <h3>Right Aligned Text</h3>
+            <p>Redimensione a janela do navegador para ver o efeito.</p>
+            <p class="text-right">Right aligned text on all screen sizes.</p>
+            <p class="text-sm-right">Right aligned text on small or wider screens.</p>
+            <p class="text-md-right">Right aligned text on medium or wider screens.</p>
+            <p class="text-lg-right">Right aligned text on large or wider screens.</p>
+            <p class="text-xl-right">Right aligned text on xlarge or wider screens.</p>
+            <hr>
+
+            <!-- Alinhamento responsivo no centro -->
+            <h3>Responsive Centered Aligned Text</h3>
+            <p>Redimensione a janela do navegador para ver o efeito.</p>
+            <p class="text-center">Center-aligned text on all screen sizes.</p>
+            <p class="text-sm-center">Center-aligned text on small or wider screens.</p>
+            <p class="text-md-center">Center-aligned text on medium or wider screens.</p>
+            <p class="text-lg-center">Center-aligned text on large or wider screens.</p>
+            <p class="text-xl-center">Center-aligned text on xlarge or wider screens.</p>
+            <hr>
+        </div>
+
+    </body>
+</html>

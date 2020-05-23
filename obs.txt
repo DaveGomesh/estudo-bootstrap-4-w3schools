@@ -1,0 +1,36 @@
+.container = area de tamanho fixo e resposivo com 16px na direita e na esquerda
+.container-fluid = area de que ocupara toda tela
+
+
+https://www.w3schools.com/bootstrap4/tryit.asp?filename=trybs_container_resp
+Em telas <576px (extra pequeno):
+    .container-sm: 100%; 
+    .container-md: 100%;
+    .container-lg: 100%;
+    .container-xl: 100%;
+
+Em telas =>576px (pequeno):
+    .container-sm: 540px;
+    .container-md: 100%;
+    .container-lg: 100%;
+    .container-xl: 100%;
+
+Em telas =>768px (médio):
+    .container-sm: 720px; 
+    .container-md: 720px; 
+    .container-lg: 100%;
+    .container-xl: 100%;
+
+Em telas =>992px (grande):
+    .container-sm: 960px;
+    .container-md: 960px;
+    .container-lg: 960px;
+    .container-xl: 100%;
+
+Em telas =>1200px:
+    .container-sm: 1140px;
+    .container-md: 1140px;
+    .container-lg: 1140px;
+    .container-xl: 1140px;
+
+
