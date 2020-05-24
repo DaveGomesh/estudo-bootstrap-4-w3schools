@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <title>Estudo de Botões</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="container bg-primary text-white pt-5 pb-5 mb-5">
+                <h1>Botões</h1>
+                <p>Acesse o código fonte!</p>
+            </div>
+        </header>
+
+        <div class="container">
+            <h2>Botão Simples</h2>
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>      
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>Diferentes Elementos</h2>
+            <a href="#" class="btn btn-info" role="button">Link Button</a>
+            <button type="button" class="btn btn-info">Button</button>
+            <input type="button" class="btn btn-info" value="Input Button">
+            <input type="submit" class="btn btn-info" value="Submit Button">
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>Botão com Contorno</h2>
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light text-dark">Light</button>
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>Diferentes Tamanhos</h2>
+            <button type="button" class="btn btn-primary btn-lg">Large</button>
+            <button type="button" class="btn btn-primary btn-md">Default</button>    
+            <button type="button" class="btn btn-primary btn-sm">Small</button>
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>Botões de nível de bloco</h2>
+            <p>Adicione classe .btn-blockpara criar um botão de nível de bloco que abranja toda a largura do elemento pai.</p>
+
+            <h4>Botão de nível de bloco normal</h4>
+            <button type="button" class="btn btn-primary btn-block">Button 1</button>
+            <button type="button" class="btn btn-success btn-block">Button 2</button>
+            <br>
+            
+            <h4>Botão de nível de bloco grande</h4>
+            <button type="button" class="btn btn-primary btn-lg btn-block">Button 1</button>
+            <button type="button" class="btn btn-success btn-lg btn-block">Button 2</button>
+            <br>
+            
+            <h4>Botão de nível de bloco pequeno</h4>
+            <button type="button" class="btn btn-primary btn-sm btn-block">Button 1</button>
+            <button type="button" class="btn btn-success btn-sm btn-block">Button 2</button>
+            <hr>
+          </div>
+
+          <div class="container">
+            <h2>Botões ativos e desativos</h2>
+            <p>Um botão pode ser definido para um estado ativo (apareça pressionado) ou desabilitado (não clicável):</p>
+
+            <button type="button" class="btn btn-primary">Primary Button</button>
+            <button type="button" class="btn btn-primary active">Active Primary</button>
+            <button type="button" class="btn btn-primary" disabled>Disabled Primary</button>
+            <a href="#" class="btn btn-primary disabled">Disabled Link</a>
+
+            <p style="margin-top: 15px;">A classe <code>.active</code> faz com que um botão apareça pressionado, e o atributo <code>disabled</code> torna um botão não clicável. Observe que os elementos <code>a</code> não suportam o atributo desativado e, portanto, devem usar a classe <code>.disabled</code> para fazer com que ela apareça visualmente desativada.</p>
+            <hr>
+        </div>
+
+        <div class="container">
+            <h2>Botão Spinner</h2>
+            <p>Adicione Spinners nos botões:</p>                                                  
+            
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+            </button>
+          
+            <button class="btn btn-primary">
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-border spinner-border-sm"></span>
+              Loading..
+            </button>
+            
+            <button class="btn btn-primary" disabled>
+              <span class="spinner-grow spinner-grow-sm"></span>
+              Loading..
+            </button>
+            <hr>
+        </div>
+    </body>
+</html>
